@@ -365,7 +365,7 @@ export default function HeroSection() {
             >
               <h1 className="text-hero font-bold mb-6 leading-tight">
                 <span className="block text-accent">SHREYASH</span>
-                <span className="block text-tech-blue">DESAI</span>
+                <span className="block text-cyan-400">DESAI</span>
               </h1>
               
               <MorphingText />
@@ -387,7 +387,7 @@ export default function HeroSection() {
                 transition={{ delay: 4.2, duration: 0.8 }}
                 className="flex flex-col sm:flex-row gap-6 justify-center items-center"
               >
-                <button className="bg-accent text-primary px-8 py-4 rounded-lg font-semibold hover:bg-accent-300 transition-all duration-300 transform hover:scale-105">
+                <button className="bg-accent text-primary px-8 py-4 rounded-lg">
                   Explore My Work
                   <motion.span
                     className="inline-block ml-2"
@@ -398,7 +398,7 @@ export default function HeroSection() {
                   </motion.span>
                 </button>
                 
-                <button className="bg-transparent border-2 border-accent text-accent px-8 py-4 rounded-lg font-semibold hover:bg-accent hover:text-primary transition-all duration-300">
+                <button className="btn-secondary">
                   Download Resume
                 </button>
               </motion.div>
