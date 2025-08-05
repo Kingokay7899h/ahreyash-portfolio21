@@ -273,7 +273,7 @@ function CustomCursor() {
 }
 
 // Main Portfolio Component
-export default function Portfolio() {
+export default function HeroSection() {
   const [loading, setLoading] = useState(true)
   const [scrollY, setScrollY] = useState(0)
   
